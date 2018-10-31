@@ -14,4 +14,12 @@ public class CalculatorTest {
         double expected = 2D;
         assertThat(result, is(expected));
     }
+    @Test
+    public void whenDiv2On2Then1() {
+        Calculator calc = new Calculator();
+        calc.add(2D, 2D);
+        double result = calc.getResult();
+        double expected = 1D;
+        assertThat(result, is(expected));
+    }
 }
