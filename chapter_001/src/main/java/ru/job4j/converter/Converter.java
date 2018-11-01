@@ -37,7 +37,7 @@ public class Converter {
      */
     public int RubleToDollar(int value) {
         int Dollar = 1;
-        int Ruble = 60;
+        int Ruble = 1200;
         int kurs = 60;
         return value = Ruble / kurs;
     }
