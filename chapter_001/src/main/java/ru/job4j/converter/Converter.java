@@ -11,10 +11,8 @@ public class Converter {
      * @return Евро.
      */
     public int rubleToEuro(int value) {
-        int Euro = 1;
-        int ruble = 70;
-        int kurs = 70;
-        return value = ruble / kurs ;
+
+        return value / 70 ;
 
     }
     /**
@@ -23,10 +21,8 @@ public class Converter {
      * @return рубли.
      */
     public int EuroToRuble(int value) {
-        int Euro = 1;
-        int ruble = 70;
-        int kurs = 70;
-        return value = Euro * kurs;
+
+        return value * 70;
 
     }
 
@@ -36,10 +32,8 @@ public class Converter {
      * @return Доллары
      */
     public int RubleToDollar(int value) {
-        int Dollar = 1;
-        int Ruble = 1200;
-        int kurs = 60;
-        return value = Ruble / kurs;
+
+        return value / 60;
     }
     /**
      * Конвертируем рубли в доллары.
@@ -47,10 +41,8 @@ public class Converter {
      * @return рубли
      */
     public int DollarToRuble(int value) {
-        int Dollar = 1;
-        int Ruble = 60;
-        int kurs = 60;
-        return value = Dollar * kurs;
+
+        return value * 60;
 
     }
 }
