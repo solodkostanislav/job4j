@@ -8,10 +8,10 @@ public class PointTest {
 
     @Test
     public void distanceTo() {
-       Point a = new Point (4, 3);
-       Point b =new Point (5,6);
-    double result = a.distanceTo(b);
-    assertThat(result, is(3.1622776601683795));
+        Point a = new Point (4, 3);
+        Point b =new Point (5,6);
+        double result = a.distanceTo(b);
+        assertThat(result, is(3.1622776601683795));
     }
 
     @Test
